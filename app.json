@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Pytter Parking",
+    "slug": "my-estacionamento",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/imgs/logo_PytterParking.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/imgs/logo_PytterParking.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/imgs/logo_PytterParking.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.murilo_frank.myestacionamento",
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7f6d7e05-fb4e-47e3-8348-ef5bfe4fc4dc"
+      }
+    }
+  }
+}
